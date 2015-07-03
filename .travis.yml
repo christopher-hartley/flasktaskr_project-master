@@ -13,4 +13,6 @@ deploy:
     secure: GOmmJxifcdtquVRBrloOvX0glyycg1deCJDZ4zfU7us/zr3vrgryo0OGTNpP532Z3c4sCBU6AixaULEjYoNkM2WGdrgf8vbMAs/jNuctPM/+JFPsahL6ey01S93Hwn5+RSwYffTBgrTHMp7mAbWlxnwfa9R0jTU89yQtMphgreNnlZISzf+xiqDsFsioIqaV+Tfv+xZf/jMLAqmjAupLdNN3kDA6B2QQCkM7+IxJ2iBacY/tsEL7cmndUji/K2nnwJB9vdUBvb6k+0qqDcE3H+jk+KN+rrofpSe4xzg9uhGV0JREhPn8JTevWAw58H31F41Mc63jse5dZRb9cshL14aXNlYMPNl+zEpwS2A7+uusutkMnD+m8pxZIpQgSFsjkmWgUHaaVP1DCkMn+9R0sRndEVA7HxExf0crCb/zR0pvrrZORqyCZ4SnxCZK2PARbuegCrad7FbuycRpeVdFIDlA+XK1y/3T3RRbvhAwJadg8x2D3hVOgBQPK8cH6zFBMKNVMmljTL7byRmXqFhwgnCSqvMO0YJkmQTee5gWnkMjuiBTFV3Kw9/ugcMO8En9Iyf6bPXbykxmlbcXnJwfMFqoByYhNmI6nsduAvDGAn6MUusRod6fHa399J+dGUPpCz6bkjk/nlmAmJcBaxQ03FMwqi1PFktAeYm/zUXYpfA=
   app: evening-brushlands-4215
   on:
+    branch: flasktaskr_project-master
+    python: '3.4'
     repo: christopher-hartley/flasktaskr_project-master
