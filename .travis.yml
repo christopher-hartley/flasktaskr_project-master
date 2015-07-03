@@ -1,29 +1,16 @@
-# specify language
 language:
-  - python
-
-# specify python version(s)
+- python
 python:
-  - "3.4"
-  - "2.7"
-
-# install dependencies
+- '3.4'
+- '2.7'
 install:
-  - pip install -r requirements.txt
-
-# run tests
+- pip install -r requirements.txt
 script:
-  - nosetests
-
-# deploy
+- nosetests
 deploy:
   provider: heroku
   api_key:
-    secure: XEtRjqqP6ZgiZKDi/OjSyMhJIPVPUzmX+5899LXfm2eyMtItYqFouCtBAOmBU5bWnZiwgXdB9l9ra2yiC+321TET1WVJe1WHDTFW1rzIpWS7t/ZIJYPhmwcYxa02kzLQZsrDZH/BW/cUuoHlOhmGSpuqO6SO1h1XnzwqHVe68vw=
-  app: flasktaskr
+    secure: GOmmJxifcdtquVRBrloOvX0glyycg1deCJDZ4zfU7us/zr3vrgryo0OGTNpP532Z3c4sCBU6AixaULEjYoNkM2WGdrgf8vbMAs/jNuctPM/+JFPsahL6ey01S93Hwn5+RSwYffTBgrTHMp7mAbWlxnwfa9R0jTU89yQtMphgreNnlZISzf+xiqDsFsioIqaV+Tfv+xZf/jMLAqmjAupLdNN3kDA6B2QQCkM7+IxJ2iBacY/tsEL7cmndUji/K2nnwJB9vdUBvb6k+0qqDcE3H+jk+KN+rrofpSe4xzg9uhGV0JREhPn8JTevWAw58H31F41Mc63jse5dZRb9cshL14aXNlYMPNl+zEpwS2A7+uusutkMnD+m8pxZIpQgSFsjkmWgUHaaVP1DCkMn+9R0sRndEVA7HxExf0crCb/zR0pvrrZORqyCZ4SnxCZK2PARbuegCrad7FbuycRpeVdFIDlA+XK1y/3T3RRbvhAwJadg8x2D3hVOgBQPK8cH6zFBMKNVMmljTL7byRmXqFhwgnCSqvMO0YJkmQTee5gWnkMjuiBTFV3Kw9/ugcMO8En9Iyf6bPXbykxmlbcXnJwfMFqoByYhNmI6nsduAvDGAn6MUusRod6fHa399J+dGUPpCz6bkjk/nlmAmJcBaxQ03FMwqi1PFktAeYm/zUXYpfA=
+  app: evening-brushlands-4215
   on:
-    branch: master
-    python: '3.4'
-    repo: realpython/flasktaskr_project
-
-#test
+    repo: christopher-hartley/flasktaskr_project-master
